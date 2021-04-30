@@ -43,7 +43,7 @@ class CalculadoraTest extends \PHPUnit\Framework\TestCase {
     public function testDivision(){
         //Arrange (Alistar)
         $operacion = new Calculadora(5, 5);
-        $esperado = 0;
+        $esperado = 1;
         //Act (Actuar)
         $calculado = $operacion->division();
         //Assert (Afirmar)
