@@ -7,6 +7,7 @@
 
     $carritos = new Consulta('SELECT * FROM carritos WHERE Placa LIKE "asd1276"');
     $arrayCarritos = $carritos->getConsulta();
+    
 
 ?>
 
