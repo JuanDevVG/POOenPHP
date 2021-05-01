@@ -6,7 +6,7 @@ use SebastianBergmann\Complexity\Calculator;
 use function PHPUnit\Framework\assertEquals;
 use function PHPUnit\Framework\assertTrue;
 
-require("../../src/Calculadora.php");
+require("src/Calculadora.php");
 
 class CalculadoraTest extends \PHPUnit\Framework\TestCase {
     
